@@ -1,9 +1,9 @@
 # TP III de Python para CoderHouse
 
 ## Descripción
-Proyecto en Python que modela clientes de una pagina de compras, con 
+Proyecto eCommerce en Python usando Django. 
 
-# Proyecto Django - Mi Tienda
+# Proyecto Django - eCommerce
 
 ## Cómo probar:
 1. Ejecutar `python manage.py runserver`
