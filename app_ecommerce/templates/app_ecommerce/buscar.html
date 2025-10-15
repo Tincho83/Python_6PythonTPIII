@@ -20,8 +20,10 @@
         {% endif %}
         <div class="card-body text-center">
           <h5 class="card-title">{{ p.nombre }}</h5>
-          <p class="card-text text-muted">{{ p.descripcion|truncatechars:80 }}</p>
-          <p class="fw-bold text-success">${{ p.precio }}</p>
+          <p class="card-text text-muted">{{ p.descripcion|truncatechars:89 }}</p>
+          <div class="card-body text-center">
+            <p class="fw-bold fs-5 text-success">${{ p.precio }}</p>
+          </div>
         </div>
       </div>
     </div>
