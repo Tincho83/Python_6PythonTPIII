@@ -1,0 +1,34 @@
+{% extends 'app_ecommerce/base.html' %}
+{% block title %}Buscar{% endblock %}
+{% block content %}
+<div class="text-center mb-4">
+  <h2 class="fw-bold">Buscar Productos</h2>
+  <form method="get" class="d-flex justify-content-center mt-3" style="max-width: 500px; margin: auto;">
+    <input type="text" name="q" value="{{ query }}" class="form-control me-2" placeholder="Buscar por nombre o descripción...">
+    <button class="btn btn-primary">Buscar</button>
+  </form>
+</div>
+
+<div class="row mt-4">
+  {% for p in resultados %}
+    <div class="col-md-3 mb-4">
+      <div class="card h-100 shadow-sm border-0">
+        {% if p.imagen %}
+          <img src="{{ p.imagen }}" class="card-img-top" alt="{{ p.nombre }}">
+        {% else %}
+          <img src="/static/img/no_image.jpg" class="card-img-top" alt="Sin imagen">
+        {% endif %}
+        <div class="card-body text-center">
+          <h5 class="card-title">{{ p.nombre }}</h5>
+          <p class="card-text text-muted">{{ p.descripcion|truncatechars:80 }}</p>
+          <p class="fw-bold text-success">${{ p.precio }}</p>
+        </div>
+      </div>
+    </div>
+  {% empty %}
+    {% if query %}
+      <p class="text-center text-muted">No se encontraron resultados.</p>
+    {% endif %}
+  {% endfor %}
+</div>
+{% endblock %}
