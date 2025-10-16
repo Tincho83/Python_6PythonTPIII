@@ -84,9 +84,9 @@ Proyecto eCommerce en Python usando Django.
 - Permite buscar clientes por nombre o documento en la base de datos.
 
 8.Panel de administración
--URL: /admin/
--Usuario: super
--Contraseña: super
+- URL: /admin/
+- Usuario: super
+- Contraseña: super
 - Desde aquí se pueden gestionar todos los modelos: Clientes, Categorías, Productos, Pedidos, Tipos de Documento, etc.
 
 
