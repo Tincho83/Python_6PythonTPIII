@@ -13,7 +13,7 @@ Proyecto eCommerce en Python usando Django.
 
 3. En VS Code:
    - Ir a Ver/Terminal, para visualizar la consola.
-   - En la pestaña "Terminal" debemos estar ubicados en la carpeta del proyecto "c:\proy\Python_6PythonTPIII".
+   - En la pestaña "Terminal" debemos estar ubicados en la carpeta del proyecto. ejemplo: "c:\proy\Python_6PythonTPIII".
 
 4. Crear entorno virtual: 
    -  python -m venv ent_virt_ecommerce
@@ -90,7 +90,7 @@ Proyecto eCommerce en Python usando Django.
 - Desde aquí se pueden gestionar todos los modelos: Clientes, Categorías, Productos, Pedidos, Tipos de Documento, etc.
 
 
-#Prueba sugerida
+## Prueba sugerida
 - 1. Crear Tipo de Documento (DNI ya esta creado, puede crear LC o LE).
 - 2. Crear Cliente
 - 3. Crear Categoria (TV Led, TV Smart y Radio ya estan creados, se puede crear Climatizacion, Pequeños Electrodomesticos, etc)
@@ -100,13 +100,13 @@ Proyecto eCommerce en Python usando Django.
 - 7. Revisar todo desde el panel de administracion.
 
 
-##Consigna sobre trabajo Prctico
+## Consigna sobre trabajo Prctico
 - Crea una web en Django utilizando Herencia de plantillas, con un modelo de por lo menos 3 clases, un formulario para ingresar datos a las 3 clases y un formulario para buscar algo en la BD, no hace falta que sea sobre las tres clases, con realizar búsqueda sobre una alcanzará. Te sugerimos que hagas  una web estilo blog para ir preparando en la entrega final.
 
-##Objetivos
+## Objetivos
 - []Desarrollar tu primer WEB en Django utilizando patrón MVT
 
-##Requisitos:
+## Requisitos:
 - []Proyecto Web Django con patrón MVT que incluya:
 
 - []Herencia de HTML. (las paginas webs heredan de base.htm)
@@ -117,5 +117,5 @@ Proyecto eCommerce en Python usando Django.
 - []Readme.md, que indique el orden en el que se prueban las cosas y/o donde están las funcionalidades. 
 - []Link de GitHub con el proyecto totalmente subido a la plataforma.
 
-##Formato
+## Formato
 - Link al repositorio de GitHub con el nombre “TuPrimeraPagina+Apellido”  por ejemplo “TuPrimeraPagina+Fernandez” (Dentro del link del proyecto se deja un .zip con TuPrimeraPagina+MartinHernandez)
