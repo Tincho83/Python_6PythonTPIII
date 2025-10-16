@@ -5,26 +5,51 @@ Proyecto eCommerce en Python usando Django.
 
 # Proyecto Django - eCommerce
 
+## Obtencion del proyecto e instalacion de componentes:
+1. Descargar o clonar el proyecto 
+   "https://github.com/Tincho83/Python_6PythonTPIII.git".
+
+2. Abrir VS Code, luego abrir la carpeta del proyecto, ejemplo "Python_6PythonTPIII"
+
+3. En VS Code:
+   3a. ir a Ver/Terminal, para visualizar la consola.
+   3b. En la pestaña "Terminal" debemos estar ubicados en la carpeta del proyecto "c:\proy\Python_6PythonTPIII".
+
+4. Crear entorno virtual: 
+      python -m venv ent_virt_ecommerce
+
+5. Habilitar la ejecucion de scripts en windows: 
+      Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+
+6. Ingresar al entorno virtual:
+      ent_virt_ecommerce/Scripts/Activate
+      
+7. Instalar Django o los Requerimientos (requeriments.txt) del proyecto:
+      pip install django
+      o
+      pip install -r requeriments.txt
+
 ## Cómo probar:
-1. Ejecutar `python manage.py runserver`
-2. Ir a `http://localhost:8000/`
-3. Desde la barra de navegación puedes:
-   - Agregar clientes (`/cliente/`)
-   - Agregar productos (`/producto/`)
-   - Crear pedidos (`/pedido/`)
+1. Dentro de la consola de comandos de VS Code:
+      python manage.py runserver
+
+2. Abrir un navegador Web, ingresar a la direccion:
+      http://localhost:8000/
+
+3. Desde la barra de navegacion (navbar) superior se puede:
+   - Agregar Clientes (`/cliente/`)
+   - Agregar Tipos de Documentos (`/tipodoc/`)
+   - Agregar Productos (`/producto/`)
+   - Crear Pedidos (`/pedido/`)
+   - Crear Categorias (`/categoria/`)
    - Buscar clientes (`/buscar/`)
 
-## Cumple con:
-- Patrón MVT de Django
-- Herencia de plantillas HTML (base.html)
-- 3 modelos: Cliente, Producto, Pedido
-- Formularios para alta de cada modelo
-- Formulario de búsqueda en la BD
+4. Panel Administracion, ingresar a la direccion:
+      http://localhost:8000/admin
 
+      user: super
+      pass: super
 
-2. Ir a `http://localhost:8000/admin`
-user: super
-pass: super
 
 Consigna
 Crea una web en Django utilizando Herencia de plantillas, con un modelo de por lo menos 3 clases, un formulario para ingresar datos a las 3 clases y un formulario para buscar algo en la BD, no hace falta que sea sobre las tres clases, con realizar búsqueda sobre una alcanzará.
