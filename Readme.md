@@ -51,6 +51,55 @@ Proyecto eCommerce en Python usando Django.
    -  pass: super
 
 
+## Orden de pruebas y funcionalidades principales
+
+1.Inicio
+- URL: /
+- Muestra la página principal del proyecto con acceso al resto de las secciones desde la barra de navegación superior.
+
+2.Clientes
+- URL: /cliente/
+- Formulario para agregar clientes asociados a un tipo de documento.
+
+3.Tipos de Documentos
+- URL: /tipodoc/
+- Permite crear, los tipos de documento (por ejemplo: DNI, Pasaporte).
+
+4.Productos
+-  URL: /producto/
+-  Permite crear productos asociados a una categoría.
+-  Si no se carga imagen, se muestra una imagen por defecto (no_image.jpg).
+
+5.Pedidos
+- URL: /pedido/
+- Formulario que permite seleccionar un cliente y un producto para registrar un pedido.
+
+
+6.Categorias
+- URL: /categoria/
+- Permite crear categorías para los productos (por ejemplo: Electrónica, Ropa, etc.).
+
+7.Búsqueda de clientes
+- URL: /buscar/
+- Permite buscar clientes por nombre o documento en la base de datos.
+
+8.Panel de administración
+-URL: /admin/
+-Usuario: super
+-Contraseña: super
+- Desde aquí se pueden gestionar todos los modelos: Clientes, Categorías, Productos, Pedidos, Tipos de Documento, etc.
+
+
+#Prueba sugerida
+- 1. Crear Tipo de Documento (DNI ya esta creado, puede crear LC o LE).
+- 2. Crear Cliente
+- 3. Crear Categoria (TV Led, TV Smart y Radio ya estan creados, se puede crear Climatizacion, Pequeños Electrodomesticos, etc)
+- 4. Crear Productos
+- 5. buscar los productos (por nombre o descripcion)
+- 6. Crear Pedidos
+- 7. Revisar todo desde el panel de administracion.
+
+
 Consigna
 Crea una web en Django utilizando Herencia de plantillas, con un modelo de por lo menos 3 clases, un formulario para ingresar datos a las 3 clases y un formulario para buscar algo en la BD, no hace falta que sea sobre las tres clases, con realizar búsqueda sobre una alcanzará.
 
