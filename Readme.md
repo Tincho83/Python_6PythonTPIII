@@ -7,34 +7,34 @@ Proyecto eCommerce en Python usando Django.
 
 ## Obtencion del proyecto e instalacion de componentes:
 1. Descargar o clonar el proyecto 
-   "https://github.com/Tincho83/Python_6PythonTPIII.git".
+   - "https://github.com/Tincho83/Python_6PythonTPIII.git".
 
 2. Abrir VS Code, luego abrir la carpeta del proyecto, ejemplo "Python_6PythonTPIII"
 
 3. En VS Code:
-   3a. ir a Ver/Terminal, para visualizar la consola.
-   3b. En la pestaña "Terminal" debemos estar ubicados en la carpeta del proyecto "c:\proy\Python_6PythonTPIII".
+   - Ir a Ver/Terminal, para visualizar la consola.
+   - En la pestaña "Terminal" debemos estar ubicados en la carpeta del proyecto "c:\proy\Python_6PythonTPIII".
 
 4. Crear entorno virtual: 
-      python -m venv ent_virt_ecommerce
+   -  python -m venv ent_virt_ecommerce
 
 5. Habilitar la ejecucion de scripts en windows: 
-      Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+   -  Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
 
 6. Ingresar al entorno virtual:
-      ent_virt_ecommerce/Scripts/Activate
-      
+   -  ent_virt_ecommerce/Scripts/Activate
+
 7. Instalar Django o los Requerimientos (requeriments.txt) del proyecto:
-      pip install django
-      o
-      pip install -r requeriments.txt
+   -  pip install django
+   -  o
+   -  pip install -r requeriments.txt
 
 ## Cómo probar:
 1. Dentro de la consola de comandos de VS Code:
-      python manage.py runserver
+   -  python manage.py runserver
 
 2. Abrir un navegador Web, ingresar a la direccion:
-      http://localhost:8000/
+   -  http://localhost:8000/
 
 3. Desde la barra de navegacion (navbar) superior se puede:
    - Agregar Clientes (`/cliente/`)
@@ -45,10 +45,10 @@ Proyecto eCommerce en Python usando Django.
    - Buscar clientes (`/buscar/`)
 
 4. Panel Administracion, ingresar a la direccion:
-      http://localhost:8000/admin
-
-      user: super
-      pass: super
+   -  http://localhost:8000/admin
+   -  
+   -  user: super
+   -  pass: super
 
 
 Consigna
