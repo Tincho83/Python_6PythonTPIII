@@ -100,31 +100,22 @@ Proyecto eCommerce en Python usando Django.
 - 7. Revisar todo desde el panel de administracion.
 
 
-Consigna
-Crea una web en Django utilizando Herencia de plantillas, con un modelo de por lo menos 3 clases, un formulario para ingresar datos a las 3 clases y un formulario para buscar algo en la BD, no hace falta que sea sobre las tres clases, con realizar búsqueda sobre una alcanzará.
+##Consigna sobre trabajo Prctico
+- Crea una web en Django utilizando Herencia de plantillas, con un modelo de por lo menos 3 clases, un formulario para ingresar datos a las 3 clases y un formulario para buscar algo en la BD, no hace falta que sea sobre las tres clases, con realizar búsqueda sobre una alcanzará. Te sugerimos que hagas  una web estilo blog para ir preparando en la entrega final.
 
-Te sugerimos que hagas  una web estilo blog para ir preparando en la entrega final.
+##Objetivos
+- []Desarrollar tu primer WEB en Django utilizando patrón MVT
 
-Objetivos
-[]Desarrollar tu primer WEB en Django utilizando patrón MVT
+##Requisitos:
+- []Proyecto Web Django con patrón MVT que incluya:
 
-Requisitos
-Link de GitHub con el proyecto totalmente subido a la plataforma.
+- []Herencia de HTML. (las paginas webs heredan de base.htm)
+- []Desarrollo WEB en Django utilizando patrón MVT (se uso: Template > URL > View (Logica) )
+- []Por lo menos 3 clases en models. (se crean 6: "TipoDoc", "Cliente", "Categoria", "Producto", "Pedido", "ContadorVisitas")
+- []Un formulario para insertar datos a por cada model creado. (se crean para "TipoDoc", "Cliente", "Categoria", "Producto", "Pedido")
+- []Un formulario para buscar informacion en la BD (segun los models que se hayan creado). (El buscador busca productos por nombre y descripcion)
+- []Readme.md, que indique el orden en el que se prueban las cosas y/o donde están las funcionalidades. 
+- []Link de GitHub con el proyecto totalmente subido a la plataforma.
 
-[]Proyecto Web Django con patrón MVT que incluya:
-
-[]Herencia de HTML.
-
-[]Desarrollo WEB en Django utilizando patrón MVT
-
-[]Por lo menos 3 clases en models.
-
-[]Un formulario para insertar datos a por cada model creado.
-
-[]Un formulario para buscar informacion en la BD (segun los models que se hayan creado)
-
-[]Readme.md, que indique el orden en el que se prueban las cosas y/o donde están las funcionalidades.
-
-
-Formato
-Link al repositorio de GitHub con el nombre “TuPrimeraPagina+Apellido”  por ejemplo “TuPrimeraPagina+Fernandez”
+##Formato
+- Link al repositorio de GitHub con el nombre “TuPrimeraPagina+Apellido”  por ejemplo “TuPrimeraPagina+Fernandez” (Dentro del link del proyecto se deja un .zip con TuPrimeraPagina+MartinHernandez)
